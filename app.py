@@ -11,7 +11,7 @@ GOOGLE_API_KEY = "AQ.Ab8RN6Ij_g4zDyWomqDRku4bBCixj46kKngCyZH5hE9jMs88QQ"
 
 # Wake up the Gemini Brain
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 # Set up a memory bank
 if "messages" not in st.session_state:
     st.session_state.messages = []
